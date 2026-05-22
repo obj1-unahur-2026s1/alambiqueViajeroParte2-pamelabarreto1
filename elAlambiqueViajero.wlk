@@ -10,6 +10,7 @@ object luke{
             cantidadViajes = cantidadViajes + 1
             recuerdo = lugar.recuerdoTipico()
             vehiculo.desgaste()
+            vehiculo.recuerdoTipico()
         }
     }
     method recuerdo() = recuerdo
@@ -18,6 +19,7 @@ object luke{
 
 object alambiqueVeloz {
     var rapido = true
+    var veloz=true
     var combustible = 20
     const consumoPorViaje = 10
     var patente = "AB123JK"
